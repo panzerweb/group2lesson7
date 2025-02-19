@@ -1,0 +1,47 @@
+/* Main Styling for Index.html */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #F72C5B;
+    --secondary: #ffffff;
+    --accent: #A7D477;
+}
+
+/* body{
+
+} */
+
+/* Navbar Styling */
+.navbar{
+    background: var(--primary);
+}
+.dropdown-menu{
+    background-color: var(--primary);
+}
+.dropdown-menu li a:hover{
+    background-color: #be2246;
+}
+
+
+/* Main Section */
+.main-section{
+    height: 100vh;
+    background-image:
+    linear-gradient(to left, rgba(63, 63, 63, 0.822), rgba(131, 5, 99, 0.73)),
+    url('../images/women_empowerment.jpg');
+    background-size: cover;
+}
+.main-section h4{
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+.main-section h1{
+    font-size: 6rem;
+}
+.main-section h1,h4,p{
+    text-shadow: 3px 3px 2px rgb(26, 25, 25);
+}
