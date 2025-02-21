@@ -42,7 +42,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="./employment.html">Employment and Unemployment Rates</a></li>
                                     <li><a class="dropdown-item" href="./employ_sectors.html">Employment Sectors</a></li>
-                                    <li><a class="dropdown-item" href="#">Women and Public Life</a></li>
+                                    <li><a class="dropdown-item" href="./public_life.html">Women and Public Life</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -55,7 +55,229 @@
             
         </header>
         <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <h1 class="text-center">Employment Sectors</h1>
+                        <hr>
+                        <div class="d-flex justify-content-center">
+                            <article class="mx-auto">
+                                <ul class="nav nav-tabs" id="articleTabs">
+                                    <li class="nav-item">
+                                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#article1">2020</button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#article2">2024</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="article1">
+                                        <article>
+                                            <img src="../assets/images/chart_5.png" alt="" class="img-fluid">
+                                            <p class="text-start">Percent Distribution of Employed Persons by Major Industry Group: January 2019 and 2020.</p>
+                                        </article>
+                                    </div>
+                                    <div class="tab-pane fade" id="article2">
+                                        <article>
+                                            <img src="../assets/images/chart_6.png" alt="" class="img-fluid">
+                                            <p class="text-start">Employment share Philippines 2024, by sector. Source: Statitica</p>
+                                        </article>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <hr>
+                        <h1 class="fw-bold my-3">Sector-Specific Insights</h1>
 
+                        <!-- Agriculture -->
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <img class="card-img-top img-fluid rounded-top" src="../assets/images/agri.jpg" alt="Agriculture">
+                                <div class="card-body">
+                                    <h4 class="card-title text-primary fw-bold">Agriculture Report</h4>
+                                    <p class="text-muted mb-3">Insights on agricultural-specific</p>
+                                    
+                                    <div class="accordion accordion-flush" id="agriAccordion">
+                                        <div class="accordion-item border rounded-2 shadow-sm">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-info rounded-3 text-dark fw-semibold" 
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#agriDetails" 
+                                                    aria-expanded="false" aria-controls="agriDetails">
+                                                    View Report Details
+                                                </button>
+                                            </h2>
+                                            <div id="agriDetails" class="accordion-collapse collapse" data-bs-parent="#agriAccordion">
+                                                <div class="accordion-body">
+                                                    <ul class="list-group list-group-flush text-start">
+                                                        <li class="list-group-item"><strong>Limited land ownership opportunities</strong></li>
+                                                        <li class="list-group-item"><strong>Fewer inheritance rights than male farmers</strong></li>
+                                                        <li class="list-group-item"><strong>Land ownership is crucial for income and household autonomy</strong></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Industry and Manufacturing -->
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <img class="card-img-top img-fluid rounded-top" src="../assets/images/industry.jpg" alt="Agriculture">
+                                <div class="card-body">
+                                    <h4 class="card-title text-primary fw-bold">Industry and Manufacturing</h4>
+                                    <p class="text-muted mb-3">Insights on industrial-specific</p>
+                                    
+                                    <div class="accordion accordion-flush" id="industryAccordion">
+                                        <div class="accordion-item border rounded-2 shadow-sm">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-info rounded-3 text-dark fw-semibold" 
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#industryDetails" 
+                                                    aria-expanded="false" aria-controls="industryDetails">
+                                                    View Report Details
+                                                </button>
+                                            </h2>
+                                            <div id="industryDetails" class="accordion-collapse collapse" data-bs-parent="#industryAccordion">
+                                                <div class="accordion-body">
+                                                    <ul class="list-group list-group-flush text-start">
+                                                        <li class="list-group-item"><strong>64% of economic zone workers are women</strong></li>
+                                                        <li class="list-group-item"><strong>High representation in electronics and apparel industries</strong></li>
+                                                        <li class="list-group-item"><strong>Concerns about employment conditions in export processing zones</strong></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tourism -->
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <img class="card-img-top img-fluid rounded-top" src="../assets/images/tourism.jpg" alt="Agriculture">
+                                <div class="card-body">
+                                    <h4 class="card-title text-primary fw-bold">Tourism</h4>
+                                    <p class="text-muted mb-3">Insights on tourism-specific</p>
+                                    
+                                    <div class="accordion accordion-flush" id="tourismAccordion">
+                                        <div class="accordion-item border rounded-2 shadow-sm">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-info rounded-3 text-dark fw-semibold" 
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#tourismDetails" 
+                                                    aria-expanded="false" aria-controls="tourismDetails">
+                                                    View Report Details
+                                                </button>
+                                            </h2>
+                                            <div id="tourismDetails" class="accordion-collapse collapse" data-bs-parent="#tourismAccordion">
+                                                <div class="accordion-body">
+                                                    <ul class="list-group list-group-flush text-start">
+                                                        <li class="list-group-item"><strong>Limited access to front-of-house positions</strong></li>
+                                                        <li class="list-group-item"><strong>Women are often relegated to housekeeping and service roles</strong></li>
+                                                        <li class="list-group-item"><strong>Educational and language skill barriers</strong></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Government Services -->
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <img class="card-img-top img-fluid rounded-top" src="../assets/images/government.jpg" alt="Agriculture">
+                                <div class="card-body">
+                                    <h4 class="card-title text-primary fw-bold">Government Services</h4>
+                                    <p class="text-muted mb-3">Insights on government-specific</p>
+                                    
+                                    <div class="accordion accordion-flush" id="governmentAccordion">
+                                        <div class="accordion-item border rounded-2 shadow-sm">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-info rounded-3 text-dark fw-semibold" 
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#governmentDetails" 
+                                                    aria-expanded="false" aria-controls="governmentDetails">
+                                                    View Report Details
+                                                </button>
+                                            </h2>
+                                            <div id="governmentDetails" class="accordion-collapse collapse" data-bs-parent="#governmentAccordion">
+                                                <div class="accordion-body">
+                                                    <ul class="list-group list-group-flush text-start">
+                                                        <li class="list-group-item"><strong>Better pay and conditions than many industrial sectors</strong></li>
+                                                        <li class="list-group-item"><strong>Women concentrated in stereotypical care sectors</strong></li>
+                                                        <li class="list-group-item"><strong>Underrepresentation in higher-paying positions</strong></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Business Processing Outsourcing -->
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <img class="card-img-top img-fluid rounded-top" src="../assets/images/outsourcing.jpg" alt="Agriculture">
+                                <div class="card-body">
+                                    <h4 class="card-title text-primary fw-bold">Business Outsourcing</h4>
+                                    <p class="text-muted mb-3">Insights on Outsourcing-specific</p>
+                                    
+                                    <div class="accordion accordion-flush" id="outsourcingAccordion">
+                                        <div class="accordion-item border rounded-2 shadow-sm">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-info rounded-3 text-dark fw-semibold" 
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#outsourcingDetails" 
+                                                    aria-expanded="false" aria-controls="outsourcingDetails">
+                                                    View Report Details
+                                                </button>
+                                            </h2>
+                                            <div id="outsourcingDetails" class="accordion-collapse collapse" data-bs-parent="#outsourcingAccordion">
+                                                <div class="accordion-body">
+                                                    <ul class="list-group list-group-flush text-start">
+                                                        <li class="list-group-item"><strong>Technology roadmap 2011-2016 lacks gender-responsive policies</strong></li>
+                                                        <li class="list-group-item"><strong>Limited access to higher-paid technical roles</strong></li>
+                                                        <li class="list-group-item"><strong>Barriers to advancement in IT and engineering</strong></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Entrepreneurship -->
+                        <div class="col-lg-4 my-3">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <img class="card-img-top img-fluid rounded-top" src="../assets/images/entrep.jpg" alt="Agriculture">
+                                <div class="card-body">
+                                    <h4 class="card-title text-primary fw-bold">Entrepreneurship</h4>
+                                    <p class="text-muted mb-3">Insights on entrepreneur-specific</p>
+                                    
+                                    <div class="accordion accordion-flush" id="entrepAccordion">
+                                        <div class="accordion-item border rounded-2 shadow-sm">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed bg-info rounded-3 text-dark fw-semibold" 
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#entrepDetails" 
+                                                    aria-expanded="false" aria-controls="entrepDetails">
+                                                    View Report Details
+                                                </button>
+                                            </h2>
+                                            <div id="entrepDetails" class="accordion-collapse collapse" data-bs-parent="#entrepAccordion">
+                                                <div class="accordion-body">
+                                                    <ul class="list-group list-group-flush text-start">
+                                                        <li class="list-group-item"><strong>Rising female entrepreneurs in developing nations.</strong></li>
+                                                        <li class="list-group-item"><strong>Women-led MSMEs boost jobs and development.</strong></li>
+                                                        <li class="list-group-item"><strong>More women entrepreneurs than men, driven by necessity.</strong></li>
+                                                    </ul>        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <!-- <footer class="main-footer text-center">
             <div class="d-flex align-items-center justify-content-center">
