@@ -25,7 +25,7 @@
     letter-spacing: 2px;
 }
 .main-section h1{
-    font-size: 6rem;
+    font-size: calc(7vw + 10px);
 }
 .main-section h1{
     text-shadow: 3px 3px 2px rgb(26, 25, 25);
