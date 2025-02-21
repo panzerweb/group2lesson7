@@ -26,6 +26,12 @@ body{
     background-color: #be2246;
 }
 
+/* All Sections */
+
+section{
+    padding-top: 5rem !important;
+}
+
 /* Footer */
 .main-footer{
     padding: 1rem 0;
