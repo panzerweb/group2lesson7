@@ -1,0 +1,34 @@
+/* Main Styling for Index.html */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #F72C5B;
+    --secondary: #ffffff;
+    --accent: #A7D477;
+}
+
+body{
+    height: auto;
+}
+
+/* Navbar Styling */
+.navbar{
+    background: var(--primary);
+}
+.dropdown-menu{
+    background-color: var(--primary);
+}
+.dropdown-menu li a:hover{
+    background-color: #be2246;
+}
+
+/* Footer */
+.main-footer{
+    padding: 1rem 0;
+    background: var(--primary);
+    color: var(--secondary);
+}

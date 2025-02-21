@@ -11,21 +11,6 @@
     --accent: #A7D477;
 }
 
-body{
-    height: auto;
-}
-
-/* Navbar Styling */
-.navbar{
-    background: var(--primary);
-}
-.dropdown-menu{
-    background-color: var(--primary);
-}
-.dropdown-menu li a:hover{
-    background-color: #be2246;
-}
-
 
 /* Main Section */
 .main-section{
@@ -52,9 +37,3 @@ body{
     text-shadow: 3px 3px 2px rgb(26, 25, 25);
 }
 
-/* Footer */
-.main-footer{
-    padding: 1rem 0;
-    background: var(--primary);
-    color: var(--secondary);
-}
