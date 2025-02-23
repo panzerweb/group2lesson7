@@ -3,11 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-size: 22px;
 
+}
+strong {
+    font-size: 25px; 
+}
+em {
+    font-size: 25px; 
+    font-weight:500;
+}
 :root{
     --primary: #F72C5B;
-    --secondary: #ffffff;
+    --secondary: #ebebeb;
     --accent: #A7D477;
 }
 
@@ -17,6 +25,7 @@ body{
 
 /* Navbar Styling */
 .navbar{
+    height: 2.7rem;
     background: var(--primary);
 }
 .dropdown-menu{
