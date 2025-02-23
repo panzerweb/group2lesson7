@@ -1,0 +1,28 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    border: none; /* Optional: Removes default Bootstrap card border */
+}
+
+.card-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(70%); /* Darkens the image slightly for better readability */
+}
+
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for readability */
+    color: white; /* Ensures text is readable */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1; /* Shows overlay on hover */
+}
