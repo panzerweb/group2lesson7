@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root{
     --primary: #F72C5B;
-    --secondary: #ffffff;
+    --secondary: #ebebeb;
     --accent: #A7D477;
+
 }
 
 
@@ -36,4 +38,6 @@
 .main-section p{
     text-shadow: 3px 3px 2px rgb(26, 25, 25);
 }
+
+
 
